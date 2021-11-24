@@ -5,7 +5,8 @@ This class contains a collection of methods which are the same for all sensors. 
 import jax.numpy as np
 import h5py as h5
 import sys
-from scipy.fft import rfft, fftfreq
+#from scipy.fft import rfft, fftfreq
+from jax.numpy.fft import rfft, fftfreq
 
 class MethodsCollections():
       
