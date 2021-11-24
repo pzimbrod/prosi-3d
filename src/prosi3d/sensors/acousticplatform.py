@@ -1,4 +1,4 @@
-import numpy as np
+import jax.numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 import sys

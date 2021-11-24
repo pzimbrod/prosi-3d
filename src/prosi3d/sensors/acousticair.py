@@ -1,8 +1,7 @@
 """
 Subclass from Abstract Base Class featureExtractor that outputs features of the raw data that are required for machine learning models
 """
-
-import numpy as np
+import jax.numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 import sys
@@ -11,7 +10,7 @@ from prosi3d.meta.featureExtractor import FeatureExtractor
 from prosi3d.sensors.methodsCollection import MethodsCollections
 
 class Accousticair(FeatureExtractor):
-
+ 
     def get_data(self, hdf):
         """ Abstract method from preprocessor to extract the data from the hdf5 """
        

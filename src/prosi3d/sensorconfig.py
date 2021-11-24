@@ -1,4 +1,4 @@
-import numpy as np
+import jax.numpy as np
 
 """ Python configuration that mirrors the physical sensor setup presents """
 """ All relevant variables will be defined here """
