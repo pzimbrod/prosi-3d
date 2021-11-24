@@ -16,3 +16,4 @@ dependencies:
   - setuptools_scm
   - wheel
   - jax
+  - jaxlib
